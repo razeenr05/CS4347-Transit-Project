@@ -1,0 +1,15 @@
+employee_id,first_name,last_name,role
+301,Jordan,Lee,Driver
+302,Sam,Ortiz,Driver
+303,Taylor,Nguyen,Driver
+304,Dana,Harris,Driver
+305,Priya,Shah,Driver
+306,Miguel,Torres,Driver
+401,Alex,Rivera,Mechanic
+402,Morgan,Chen,Mechanic
+403,Casey,Brooks,Mechanic
+404,Devin,Walker,Mechanic
+451,Rina,Patel,Dispatcher
+452,Omar,Garcia,Dispatcher
+551,Evelyn,Park,Manager
+651,Drew,Mercer,Administrator

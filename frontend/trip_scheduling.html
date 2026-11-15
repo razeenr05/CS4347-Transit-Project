@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trip Scheduling — City Transit Hub</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="validation.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>City Transit &amp; Fleet Maintenance Hub</h1>
+    <p>Trip Scheduling</p>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="vehicle_management.html">Vehicles</a>
+    <a href="trip_scheduling.html">Trips</a>
+    <a href="maintenance_work_order.html">Maintenance</a>
+    <a href="vehicle_search.html">Vehicle Search</a>
+    <a href="maintenance_history.html">Maintenance History</a>
+  </nav>
+  <main>
+    <h2>Trip Scheduling</h2>
+    <p class="help">
+      Schedule a new trip or edit an existing one. Leave Trip ID blank for a
+      new trip. Enter a Trip ID to identify an existing trip when editing.
+      Departure and arrival are assumed to occur on the same date. Arrival
+      time must be after departure time.
+    </p>
+
+    <form id="trip-form" action="#" method="get">
+      <fieldset>
+        <legend>Identify existing trip (edit only)</legend>
+        <div class="form-row">
+          <label for="trip_id">Trip ID</label>
+          <input type="number" id="trip_id" name="trip_id" min="1" step="1"
+                 placeholder="Leave blank for a new trip">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Trip details</legend>
+        <div class="form-row">
+          <label for="trip_date" class="required">Trip date</label>
+          <input type="date" id="trip_date" name="trip_date" required>
+        </div>
+        <div class="form-row">
+          <label for="scheduled_departure" class="required">Scheduled departure</label>
+          <input type="time" id="scheduled_departure" name="scheduled_departure" required>
+        </div>
+        <div class="form-row">
+          <label for="scheduled_arrival" class="required">Scheduled arrival</label>
+          <input type="time" id="scheduled_arrival" name="scheduled_arrival" required>
+        </div>
+        <div class="form-row">
+          <label for="route_id" class="required">Route</label>
+          <select id="route_id" name="route_id" required>
+            <option value="">— Select route —</option>
+            <option value="5">Route 5 — Airport Express</option>
+            <option value="8">Route 8 — University Loop</option>
+            <option value="12">Route 12 — Downtown</option>
+            <option value="21">Route 21 — North Line</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="vehicle_id" class="required">Vehicle</label>
+          <select id="vehicle_id" name="vehicle_id" required>
+            <option value="">— Select vehicle —</option>
+            <option value="101">101 — Bus (New Flyer Xcelsior)</option>
+            <option value="102">102 — Bus (Gillig Low Floor)</option>
+            <option value="103">103 — Bus (New Flyer Xcelsior)</option>
+            <option value="201">201 — Light Rail (Siemens S70)</option>
+            <option value="202">202 — Light Rail (Kinki Sharyo)</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="driver_id" class="required">Driver</label>
+          <select id="driver_id" name="driver_id" required>
+            <option value="">— Select driver —</option>
+            <option value="301">301 — Jordan Lee</option>
+            <option value="302">302 — Sam Ortiz</option>
+            <option value="303">303 — Taylor Nguyen</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="trip_status" class="required">Trip status</label>
+          <select id="trip_status" name="trip_status" required>
+            <option value="Scheduled" selected>Scheduled</option>
+            <option value="Delayed">Delayed</option>
+            <option value="Completed">Completed</option>
+            <option value="Canceled">Canceled</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <div class="actions">
+        <button type="submit">Preview save (not written to database)</button>
+        <p class="preview-note">
+          This control only previews the form. No trip record is saved in this phase.
+        </p>
+      </div>
+    </form>
+  </main>
+  <footer>
+    Group 8 — Phase 3 Task B
+  </footer>
+</body>
+</html>

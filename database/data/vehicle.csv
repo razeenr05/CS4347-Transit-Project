@@ -1,0 +1,12 @@
+vehicle_id,serial_number,vehicle_type,mileage,service_status,model_year,manufacturer,model
+101,BUS-2020-104,Bus,84210.0,Available,2020,New Flyer,Xcelsior
+102,BUS-2018-077,Bus,120455.0,Assigned,2018,Gillig,Low Floor
+103,BUS-2021-112,Bus,45120.0,Under Maintenance,2021,New Flyer,Xcelsior
+104,BUS-2022-041,Bus,61080.0,Available,2022,New Flyer,Xcelsior
+105,BUS-2019-063,Bus,99240.0,Assigned,2019,Gillig,Low Floor
+106,BUS-2023-019,Bus,38490.0,Available,2023,New Flyer,Xcelsior
+201,LR-2019-003,Light Rail,210890.0,Available,2019,Siemens,S70
+202,LR-2016-001,Light Rail,305600.0,Out of Service,2016,Kinki Sharyo,LRV
+203,LR-2020-007,Light Rail,184330.0,Assigned,2020,Siemens,S70
+204,LR-2018-005,Light Rail,258775.0,Under Maintenance,2018,Siemens,S70
+205,LR-2022-002,Light Rail,112430.0,Available,2022,Kinki Sharyo,LRV

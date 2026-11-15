@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Search — City Transit Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>City Transit &amp; Fleet Maintenance Hub</h1>
+    <p>Vehicle Search</p>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="vehicle_management.html">Vehicles</a>
+    <a href="trip_scheduling.html">Trips</a>
+    <a href="maintenance_work_order.html">Maintenance</a>
+    <a href="vehicle_search.html">Vehicle Search</a>
+    <a href="maintenance_history.html">Maintenance History</a>
+  </nav>
+  <main>
+    <h2>Vehicle Search</h2>
+    <p class="help">
+      Filter vehicles by type and service status. Choose Any to ignore a filter.
+      Search opens a sample results page; query-backed results will be added later.
+    </p>
+
+    <form action="vehicle_results.html" method="get">
+      <div class="form-row">
+        <label for="vehicle_type">Vehicle type</label>
+        <select id="vehicle_type" name="vehicle_type">
+          <option value="">Any</option>
+          <option value="Bus">Bus</option>
+          <option value="Light Rail">Light Rail</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="service_status">Service status</label>
+        <select id="service_status" name="service_status">
+          <option value="">Any</option>
+          <option value="Available">Available</option>
+          <option value="Assigned">Assigned</option>
+          <option value="Under Maintenance">Under Maintenance</option>
+          <option value="Out of Service">Out of Service</option>
+        </select>
+      </div>
+      <div class="actions">
+        <button type="submit">Search</button>
+      </div>
+    </form>
+  </main>
+  <footer>
+    Group 8 — Phase 3 Task B
+  </footer>
+</body>
+</html>

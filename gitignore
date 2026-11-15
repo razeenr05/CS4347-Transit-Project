@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python (if used for generating project files)
+__pycache__/
+*.pyc
+.venv/

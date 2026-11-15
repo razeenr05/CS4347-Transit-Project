@@ -1,0 +1,18 @@
+maintenance_id,service_date,status,maintenance_type,problem_description,priority,repair_cost,completion_date,vehicle_id,mechanic_id
+501,2026-09-12,Completed,Inspection,Scheduled mileage-interval inspection,Low,250.00,2026-09-12,101,404
+502,2026-10-28,In Progress,Repair,Brake pad wear on front axle,High,,,103,401
+503,2026-11-02,Open,Repair,Door actuator fault on car 2,Critical,,,202,403
+504,2026-08-05,Completed,Service,Oil and filter change,Medium,180.50,2026-08-05,101,404
+505,2026-10-15,Completed,Inspection,Quarterly safety inspection,Medium,420.00,2026-10-16,201,402
+506,2026-10-11,Completed,Service,Routine fluids and belt check,Low,195.00,2026-10-11,104,404
+507,2026-09-29,Completed,Repair,Replace worn rear tires,Medium,680.00,2026-09-29,105,401
+508,2026-11-23,Open,Inspection,Upcoming annual safety inspection,Medium,,,106,
+509,2026-10-12,Completed,Inspection,Traction-system inspection after service alert,Medium,365.00,2026-10-12,203,402
+510,2026-11-11,In Progress,Repair,Traction motor overheating on northbound run,High,,,204,402
+511,2026-10-24,Completed,Service,Replace intermittent door sensor,Medium,315.75,2026-10-25,205,403
+512,2026-06-14,Completed,Service,Brake fluid flush and inspection,Low,145.00,2026-06-14,103,401
+513,2026-07-19,Completed,Inspection,Undercarriage and wheel assembly check,Medium,295.00,2026-07-19,202,402
+514,2026-11-18,Open,Repair,Windshield wipers leaving streaks,Low,,,101,
+515,2026-11-05,Completed,Inspection,Routine 90-day vehicle inspection,Low,210.00,2026-11-05,102,404
+516,2026-11-24,Open,Inspection,Check cooling fan vibration at next service,Low,,,201,
+517,2026-04-07,Completed,Service,Air filter and coolant service,Low,165.80,2026-04-07,106,404

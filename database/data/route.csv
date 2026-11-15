@@ -1,0 +1,7 @@
+route_id,route_name,start_location,end_location,distance
+5,Airport Express,Downtown Terminal,Airport Transit Center,18.50
+8,University Loop,University Station,University Station,7.80
+12,Downtown,West End Station,City Hall,6.20
+21,North Line,North Terminal,Central Station,14.30
+22,Medical District Line,Central Station,Medical District,8.40
+31,Crosstown,East Transfer Center,West Transfer Center,13.60
